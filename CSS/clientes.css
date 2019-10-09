@@ -1,0 +1,43 @@
+#clientes {
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+    border: solid white;
+    overflow: hidden;
+}
+
+.clientes {
+    margin: auto;
+    width: 98%;
+    height: 600px;
+}
+
+.clientes h1 {
+    font-size: 35px;
+    margin-left: auto;
+    margin-top: 8%;
+    padding: 15px;
+    background: gray;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+.clientes h2{
+    margin-top: 2%;
+    padding: 5%;
+}
+
+
+
+#slider{
+    width: 2000px;
+    height: 220px;
+    
+    background-image: url("banner.jpg");
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider {
+    to{
+        image position: 2000px;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url(Cabezera.css);
+@import url(Header.css);
+@import url(Quienes\ somos.css);
+@import url(servicios.css);
+@import url(clientes.css);
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    max-width: 100%;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  section {
+    width: 85%;
+    margin-left: 15%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+  }
+ 

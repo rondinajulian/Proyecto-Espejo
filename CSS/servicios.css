@@ -1,0 +1,41 @@
+#servicios{
+    width: 85%;
+    margin: auto;
+    border: solid white;
+}
+.servicios{
+    margin:auto;
+    width: 98%;
+    height: 600px;
+}
+.servicios h1{
+    font-size: 35px;
+    margin-left: auto;
+    margin-top: 8%;
+    padding: 15px;
+    background: gray;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+.servicios ul{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    padding: 10%;
+}
+.servicios li{
+    width: 35%;
+    list-style: none;
+    padding: 20px;
+    margin:auto;
+
+}
+.servicios ul li p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+.servicios img{
+   width: 270px;
+   height: 270px;;
+}
