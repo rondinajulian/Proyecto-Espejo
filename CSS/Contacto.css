@@ -1,0 +1,56 @@
+#contacto{
+    width: 85%;
+    height: 1100px;
+    margin: auto;
+    border: solid white;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    
+}
+.contacto{
+    margin:auto;
+    width: 98%;
+    height: 600px;
+}
+
+.contacto h1{
+    font-size: 35px;
+    margin-left: auto;
+    margin-top: 8%;
+    margin-bottom: 70px;
+    padding: 15px;
+    background: gray;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#formulario{
+    display: flex;
+    
+}
+#formulario iframe{
+    flex: auto;
+    
+}
+
+@media screen and (max-width:415px){
+    #contacto{
+        width: 85%;
+        height: 1100px;
+        margin: auto;
+        border: solid white;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        
+    }
+    
+    #formulario{
+        display: flex;
+        
+        
+    }
+    #formulario iframe{
+        flex: auto;
+        height: 600px;
+    }
+}

@@ -3,13 +3,12 @@
     margin: auto;
     margin-top: 10%;
     border: solid white;
-    overflow: hidden;
 }
 
 .clientes {
     margin: auto;
     width: 98%;
-    height: 600px;
+    height: 500px;
 }
 
 .clientes h1 {
@@ -29,15 +28,74 @@
 
 
 #slider{
-    width: 2000px;
-    height: 220px;
-    
-    background-image: url("banner.jpg");
-    background-size: 100% 100%;
-    animation: slider 10s infinite linear;
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
 }
-@keyframes slider {
-    to{
-        image position: 2000px;
+#slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+    animation: cambio 5s infinite;
+    animation-direction: alternate;
+}
+#slider li{
+    list-style: none;
+    width: 100%;
+}
+#slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left:0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+@media screen and (max-width:950px) {
+    #slider{
+        width: 50%;
+        margin: auto;
+        overflow: hidden;
+    }
+    #slider ul{
+        padding: 0;
+        display: flex;
+        width: 400%;
+    
+        animation: cambio 5s infinite;
+        animation-direction: alternate;
+    }
+    #slider li{
+        list-style: none;
+        width: 100%;
+    }
+    #slider img{
+        width: 100%;
+    }
+    
+    @keyframes cambio{
+        0% {margin-left:0;}
+        20%{margin-left: 0;}
+    
+        25%{margin-left: -100%;}
+        45%{margin-left: -100%;}
+    
+        50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+    
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
     }
 }

@@ -27,9 +27,11 @@ header{
     text-decoration: none;
     padding: 1%;
     cursor: pointer;
+    font-size: 1.2rem;
+    color: black;
 }
-.lista a a:hover{
-    color: green;
+.lista a:hover{
+    color: rgb(6, 245, 6);
 }
 
 #cabecera{
@@ -65,3 +67,12 @@ header{
     left: 8%;
 }
 
+@media screen and (max-width:1130px) {
+    .lista a{
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: none;
+        padding: 1%;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+}

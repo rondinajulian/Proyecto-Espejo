@@ -6,6 +6,10 @@
 @import url(Quienes\ somos.css);
 @import url(servicios.css);
 @import url(clientes.css);
+@import url(Menuchico.css);
+@import url(RR.HH.css);
+@import url(contacto.css);
+@import url(footer.css);
 
 * {
     margin: 0;
@@ -34,4 +38,18 @@
     box-sizing: border-box;
     margin-bottom: 70px;
   }
- 
+  @media screen and (min-width:950px) {
+    .contenedor {
+      display: none;
+    }
+  }
+  @media screen and (max-width:950px) {
+    #head{
+      display: none;
+    }
+  }
+  @media screen and (max-width:671px) {
+    header{
+      display: none;
+    }
+  }

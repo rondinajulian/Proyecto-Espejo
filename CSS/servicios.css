@@ -7,6 +7,7 @@
     margin:auto;
     width: 98%;
     height: 600px;
+  
 }
 .servicios h1{
     font-size: 35px;
@@ -24,18 +25,36 @@
     padding: 10%;
 }
 .servicios li{
+    flex: auto;
     width: 35%;
     list-style: none;
-    padding: 20px;
+    padding: 2%;
     margin:auto;
+    background: steelblue;
 
 }
 .servicios ul li p{
     font-size: 18px;
     margin-top: 20px;
     text-align: center;
+
 }
 .servicios img{
-   width: 270px;
-   height: 270px;;
+   width: 100%;
+   height: 80%;
 }
+
+
+@media screen and (max-width:570px) {
+    .servicios ul li p{
+        font-size: 16px;
+        margin-top: 15px;
+        text-align: center;
+    
+    }
+    .servicios img{
+       width: 110%;
+       height: 90%;
+    }
+
+  }

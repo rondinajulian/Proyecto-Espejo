@@ -6,16 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <title>Document</title>
 </head>
+
+<div class="contenedor">
+    <input type="checkbox" id="menu-bar">
+    <label class="icon-menu" for="menu-bar">Menu</label>
+    <nav class="menuchico">
+        <ul>
+
+            <li>
+                <a href="#quienes">Nosotros</a>
+            </li>
+
+            <li>
+                <a href="#servicios">Servicios</a>
+            </li>
+
+            <li>
+                <a href="#clientes">Clientes</a>
+            </li>
+
+            <li>
+                <a href="#RRHH">RR.HH</a>
+            </li>
+
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
 <header>
     <div id="head">
         <NAv class="lista">
             <a href="#quienes">Quienes Somos</a>
             <a href="#servicios">Servicios</a>
             <a href="#clientes">Clientes</a>
-            <a href="">RR.HH</a>
-            <a href="">Contacto</a>
+            <a href="#RRHH">RR.HH</a>
+            <a href="#contacto">Contacto</a>
         </NAv>
     </div>
     <div id="cabecera">
@@ -30,15 +62,10 @@
     <div id="quienes">
         <section class="presentacion">
             <h1>Quienes Somos</h1>
+            <img src="img/empresa-de-limpieza-.jpg" alt="">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, </p>
-            <img src="img/RRHH.jpg" alt="">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                industry's standard dummy text ever since the 1500s,</p>
+
         </section>
 
     </div>
@@ -74,11 +101,103 @@
             <h1>Clientes</h1>
             <h2>Confian en nosotros</h2>
 
-            <div id="slider"></div>
+            <div id="slider">
+                <ul>
+                    <li><img src="img/images.png" alt=""></li>
+                    <li><img src="IMG/images.png" alt=""></li>
+                    <li><img src="IMG/images.png" alt=""></li>
+                    <li><img src="IMG/images.png" alt=""></li>
+                </ul>
+            </div>
         </section>
 
     </div>
 
+    <div id="RRHH">
+
+        <section class="RRHH">
+            <h1>RR.HH Recursos Humanos</h1>
+            <h2>Area dedicada a vos</h2>
+
+            <img src="img/RRHH.jpg" alt="">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,</p>
+
+        </section>
+    </div>
+
+    <div id="contacto">
+        <section class="contacto">
+            <h1>Contacto con nuestos representantes</h1>
+
+            <div id="formulario">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeRsZV630pw6hG9asdG3ZsyyOvj0LGSROF6UdvG6rX7nx5sxg/viewform?embedded=true"
+                    width="640" height="891" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <footer>
+
+        <div class="container-footer-all">
+            <div class="container-body">
+
+                <div class="colum1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8459965833126!2d-58.372466484770236!3d-34.60805558045829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses-419!2sar!4v1571188994707!5m2!1ses-419!2sar"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="colum2">
+                    <h3>Redes Sociales</h3>
+
+                    <div class="row">
+                        <img src="IMG/facebook.png">
+                        <a href="">Siguenos en Facebook</a>
+                    </div>
+                    <div class="row">
+                        <img src="IMG/instagrampng.png">
+                        <a href="">Siguenos en instagram</a>
+                    </div>
+                    <div class="row">
+                        <img src="IMG/tweeter.png">
+                        <a href="">Siguenos en Twiiter</a>
+                    </div>
+
+                </div>
+
+                <div class="colum3">
+                    <h3>Contacto</h3>
+                    <div class="row2">
+                        <a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+                    </div>
+                    <div class="row2">
+                        <p>+54 1122334455</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container-footer">
+
+                <div class="copyright">
+                    © Todos los derechos reservados | <a href="">Espejo S.A </a>
+                </div>
+
+                <div class="information">
+                    <a href="">Informacion de la compañia | Politica y privacidad | Terminos y condiciones </a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
 </body>
 
 </html>
